@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 372
+  Height = 316
+  Top = 164
+  Width = 454
+  Caption = 'Form1'
+  ClientHeight = 316
+  ClientWidth = 454
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 70
+    Height = 38
+    Top = 24
+    Width = 250
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Программа  вычисляет скорость, с которой спортсмен пробежал дистанцию'
+    Color = clFuchsia
+    ParentColor = False
+    Transparent = False
+    WordWrap = True
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 23
+    Top = 88
+    Width = 88
+    AutoSize = False
+    Caption = 'Дистанция, м'
+    Color = clFuchsia
+    ParentColor = False
+    Transparent = False
+    WordWrap = True
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 23
+    Top = 128
+    Width = 88
+    AutoSize = False
+    Caption = 'Время, сек'
+    Color = clFuchsia
+    ParentColor = False
+    Transparent = False
+    WordWrap = True
+  end
+  object Edit1: TEdit
+    Left = 136
+    Height = 23
+    Top = 88
+    Width = 144
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 136
+    Height = 23
+    Top = 128
+    Width = 144
+    OnKeyPress = Edit2KeyPress
+    TabOrder = 1
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 64
+    Top = 176
+    Width = 248
+    AutoSize = False
+    Color = clFuchsia
+    ParentColor = False
+    Transparent = False
+    WordWrap = True
+  end
+  object Button1: TButton
+    Left = 296
+    Height = 27
+    Top = 176
+    Width = 99
+    Caption = 'вычислить'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 296
+    Height = 26
+    Top = 216
+    Width = 99
+    Caption = 'завершить'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+end
