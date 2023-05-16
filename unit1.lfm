@@ -1,92 +1,62 @@
 object Form1: TForm1
-  Left = 372
-  Height = 316
-  Top = 164
-  Width = 454
+  Left = 383
+  Height = 270
+  Top = 160
+  Width = 367
   Caption = 'Form1'
-  ClientHeight = 316
-  ClientWidth = 454
+  ClientHeight = 270
+  ClientWidth = 367
   LCLVersion = '2.2.6.0'
   object Label1: TLabel
-    Left = 70
-    Height = 38
-    Top = 24
-    Width = 250
+    Left = 72
+    Height = 34
+    Top = 16
+    Width = 155
     Alignment = taCenter
     AutoSize = False
-    Caption = 'Программа  вычисляет скорость, с которой спортсмен пробежал дистанцию'
-    Color = clFuchsia
+    Caption = 'Давайте проверим число на отрицательность'
+    Color = 8388863
     ParentColor = False
     Transparent = False
     WordWrap = True
   end
   object Label2: TLabel
-    Left = 32
-    Height = 23
+    Left = 16
+    Height = 24
     Top = 88
-    Width = 88
+    Width = 98
     AutoSize = False
-    Caption = 'Дистанция, м'
-    Color = clFuchsia
-    ParentColor = False
-    Transparent = False
-    WordWrap = True
-  end
-  object Label3: TLabel
-    Left = 32
-    Height = 23
-    Top = 128
-    Width = 88
-    AutoSize = False
-    Caption = 'Время, сек'
-    Color = clFuchsia
+    Caption = 'Введите число'
+    Color = 8388863
     ParentColor = False
     Transparent = False
     WordWrap = True
   end
   object Edit1: TEdit
-    Left = 136
+    Left = 147
     Height = 23
-    Top = 88
-    Width = 144
+    Top = 89
+    Width = 83
     OnKeyPress = Edit1KeyPress
     TabOrder = 0
   end
-  object Edit2: TEdit
-    Left = 136
-    Height = 23
+  object Button1: TButton
+    Left = 16
+    Height = 41
     Top = 128
-    Width = 144
-    OnKeyPress = Edit2KeyPress
+    Width = 136
+    Caption = 'ПРОВЕРЬ!!!'
+    Color = clRed
+    OnClick = Button1Click
     TabOrder = 1
   end
-  object Label4: TLabel
-    Left = 32
-    Height = 64
-    Top = 176
-    Width = 248
-    AutoSize = False
-    Color = clFuchsia
-    ParentColor = False
-    Transparent = False
-    WordWrap = True
-  end
-  object Button1: TButton
-    Left = 296
-    Height = 27
-    Top = 176
-    Width = 99
-    Caption = 'вычислить'
-    OnClick = Button1Click
-    TabOrder = 2
-  end
   object Button2: TButton
-    Left = 296
-    Height = 26
-    Top = 216
-    Width = 99
-    Caption = 'завершить'
+    Left = 168
+    Height = 40
+    Top = 128
+    Width = 104
+    Caption = 'закрыть'
     OnClick = Button2Click
-    TabOrder = 3
+    TabOrder = 2
   end
 end
